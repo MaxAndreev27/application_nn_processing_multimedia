@@ -69,6 +69,9 @@ must be at least 200x200 pixels, with the face clearly visible. Faces that do
 not meet the configured similarity threshold are labeled `Unknown`. The
 default SFace cosine similarity threshold is `0.363`; this is a score, not a
 probability, so validate and adjust it for your camera and lighting conditions.
+The line attached to each face box visualizes the cosine similarity on a `-1`
+to `1` scale; its white marker shows the recognition threshold, and the score
+is also displayed beside the person's name.
 
 ## Limitations
 
